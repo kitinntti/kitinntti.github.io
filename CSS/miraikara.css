@@ -3,6 +3,7 @@
 	margin:0;
 	padding:0;
 }
+@media screen and (max-width:640px){
 html,body{
 	height: 100%;
 	width: 100%;
@@ -47,7 +48,7 @@ img{
 	height:auto;
 	width /***/:auto;
 }
-@media screen and (max-width:640px){
+
 #header{
 	background:#ffffff;
 	width:100%;
