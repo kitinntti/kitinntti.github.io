@@ -73,19 +73,28 @@ img {
 	zoom: 1;
 }
 .header-menu{
-	width:auto;
+	width:20%;
+	height:50px;
 	float:left;
 	clear:both;
+	text-align:center;
 	margin-top:9px;
-	padding-left:5%;
-	margin-right:13%;
+}
+.header-title{
+	float:left;
+	width:60%;
+	height:50px;
+	text-align:center;
+	margin-top:5px;
 }
 .header-mushi{
-	width:auto;
+	width:20%;
+	height:50px;
 	float:right;
+	text-align:center;
 	margin-top:12px;
-	margin-right:5%;
 }
+
 #contentsArea1{
 	width:100%;
 	background:#f5f5f5;
