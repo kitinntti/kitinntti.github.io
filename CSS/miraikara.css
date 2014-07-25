@@ -3,7 +3,6 @@
 	margin:0;
 	padding:0;
 }
-@media screen and (max-width:640px){
 	
 html,body{
 	height: 100%;
@@ -42,9 +41,8 @@ h3{
 	color:#2B2B2B;
 }
 img {
-	border-style:none;
+	brder-style:none;
 	max-width: 100%;
-	
 }
 
 #header{
@@ -166,7 +164,6 @@ img {
 	height:50px;
 	margin-top:10px;
 }
-
 .tags{
 	width:auto;
 	height:17px;
@@ -185,7 +182,3 @@ img {
 	height:25px;
 	text-align:center;
 }
-<<<<<<< HEAD
-=======
-}
->>>>>>> 0f0cffb444719993842ed0ce6d6506dcac183464
