@@ -6,7 +6,7 @@
 @media screen and (max-width:640px){
 html,body{
 	height: 100%;
-	max-width: 100%;
+	max-width: 640px;
 	background:#f5f5f5;
 }
 a{
