@@ -19,7 +19,7 @@ p{
 }
 
 .tag{
-	font-:bold;
+	font:bold;
 }
 h1{
 	font-family:arial,helvetica,clean,sans-serif;
@@ -100,6 +100,10 @@ img {
 .pickup-article{
 	width:100%;
 	height:auto;
+	
+}
+.pickup-article img{
+	
 }
 .pickup-article img{
 	
