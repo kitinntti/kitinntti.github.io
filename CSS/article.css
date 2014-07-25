@@ -16,10 +16,8 @@ p{
 	font-size:11px;
 	color:#2B2B2B;
 }
-#main{
-	width:100%;
-}
 .article-texts{
+	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:16px;
 	color:#2B2B2B;
@@ -93,7 +91,7 @@ img {
 	background:#f5f5f5;
 	height:auto;
 }
-.article-space{
+.article-space {
 	
 }
 .article-headline{
@@ -109,7 +107,7 @@ img {
 }
 .article-contents{
 	background:#ffffff;
-	text-align:left;
+	text-align:center;
 	width:98%;
 	height:auto;
 	margin-left:1%;
@@ -136,6 +134,7 @@ img {
 	}
 .editors-profile-info{
 	float:left;
+	text-align:left;
 	margin-top:10px;
 	width:70%;	
 }
