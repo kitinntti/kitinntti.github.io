@@ -3,6 +3,8 @@
 	margin:0;
 	padding:0;
 }
+@media screen and (max-width:640px){
+	
 html,body{
 	height: 100%;
 	width: 100%;
@@ -183,3 +185,7 @@ img {
 	height:25px;
 	text-align:center;
 }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 0f0cffb444719993842ed0ce6d6506dcac183464
