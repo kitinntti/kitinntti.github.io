@@ -16,9 +16,6 @@ p{
 	font-size:11px;
 	color:#2B2B2B;
 }
-#main{
-	width:100%;
-}
 .article-texts{
 	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
@@ -137,6 +134,7 @@ img {
 	}
 .editors-profile-info{
 	float:left;
+	text-align:left;
 	margin-top:10px;
 	width:70%;	
 }

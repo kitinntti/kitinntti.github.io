@@ -101,6 +101,9 @@ img {
 	width:100%;
 	height:auto;
 }
+.pickup-article img{
+	width:100%;
+}
 #contents-area2{
 	width:100%;
 	background:#f5f5f5;
@@ -143,6 +146,7 @@ img {
 	position:relative;
 	width:auto;
 	height:120px;
+	background-size:contain;
 }
 .article-image img{
 	width:100%;
