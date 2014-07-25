@@ -19,7 +19,7 @@ p{
 }
 
 .tag{
-	font-:bold;
+	font:bold;
 }
 h1{
 	font-family:arial,helvetica,clean,sans-serif;
@@ -42,7 +42,7 @@ h3{
 }
 img {
 	border-style:none;
-	max-width: 100%;
+	
 }
 
 #header{
