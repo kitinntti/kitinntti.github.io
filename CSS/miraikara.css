@@ -146,7 +146,7 @@ img {
 	position:relative;
 	width:auto;
 	height:120px;
-	background-size:contain;
+	background-size:cover;
 }
 .article-image img{
 	width:100%;
