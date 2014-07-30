@@ -37,6 +37,7 @@
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
+	background-image:url('../images/pickup-bg.png');
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
