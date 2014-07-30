@@ -14,6 +14,17 @@ type="text/css" rel="stylesheet" />
 <![endif]-->
 <title>ビールまで注ぐ！社交性が高すぎるロボット「ジミー」ちゃん</title>
 <link rel="stylesheet" type="text/css" href="../../CSS/article.css">
+<link rel="stylesheet" type="text/css" href="../../CSS/jquery.sidr.light.css">
+<script type="text/javascript" src="../../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.sidr.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.right-menu').sidr({
+      name: 'sidr-right',
+      side: 'right'
+    });
+});
+</script>
 </head>
 <body>
 <div id="main">
@@ -25,7 +36,26 @@ type="text/css" rel="stylesheet" />
 			<a  style="display:inline-block;"href="../../index.html"><img src="../../images/miraikaraMini.png" style="float:left; display:block; width:140px; height:21px; margin:auto; margin-top:10px;"></a>
 		</div>
 		<div class="header-mushi">
-			<img src="../../images/menuBar.png">
+			<a class="right-menu" href="#sidr-right"><img src="../../images/menuBar.png"></a>
+			<div id="sidr-right">
+				<ul>
+					<li><a class="right-menu" href="#sidr-right">メニューを閉じる</a></li>
+					<h1>よみもの</h1>
+					<li><img src="../../images/tags/menu-img-sample.png">トレンド</li>
+					<li><img src="../../images/tags/menu-img-sample.png">最新ニュース</li>
+					<li><img src="../../images/tags/menu-img-sample.png">バイオ</li>
+					<li><img src="../../images/tags/menu-img-sample.png">医療</li>
+					<li><img src="../../images/tags/menu-img-sample.png">カルチャー</li>
+					<li><img src="../../images/tags/menu-img-sample.png">3Dプリンター</li>
+					<li><img src="../../images/tags/menu-img-sample.png">未来都市</li>
+					<li><img src="../../images/tags/menu-img-sample.png">ノウハウ</li>
+					<h1>ごあんない</h1>
+					<li><img src="../../images/tags/menu-img-sample.png">MIRAIKARAとは</li>
+					<li><img src="../../images/tags/menu-img-sample.png">MIRAIKARAメンバー</li>
+					<li><img src="../../images/tags/menu-img-sample.png">プライバシーポリシー</li>
+					<li><img src="../../images/tags/menu-img-sample.png">お問い合わせ</li>			
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="article-thumbnail">

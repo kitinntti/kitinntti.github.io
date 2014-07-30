@@ -97,7 +97,7 @@ img {
 .menu-title{
 	float:left;
 }
-.menu-img{
+#sidr-right li img{
 	position:relative; 
 	top:8px;
 	margin-right:10px;
