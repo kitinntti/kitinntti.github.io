@@ -94,6 +94,13 @@ img {
 	text-align:center;
 	margin-top:9px;
 }
+.menu-title{
+	float:left;
+}
+.menu-table-tr{
+	float:left;
+	margin-left:10px;
+}
 
 #contentsArea1{
 	width:100%;
