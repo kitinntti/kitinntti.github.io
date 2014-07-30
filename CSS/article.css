@@ -97,9 +97,10 @@ img {
 .menu-title{
 	float:left;
 }
-.menu-table-tr{
-	float:left;
-	margin-left:10px;
+.menu-img{
+	position:relative; 
+	top:8px;
+	margin-right:10px;
 }
 
 #contentsArea1{
