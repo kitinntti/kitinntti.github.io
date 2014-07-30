@@ -160,25 +160,23 @@ img {
 	margin-top:10px;
 }
 .sns-share{
+	display:block;
 	width:90%;
-	height:70px;
 	padding-bottom:15px;
 	margin-left:5%;
 	margin-right:5%;
 }
 .sns-share-shita{
 	width:90%;
-	height:70px;
+	height:auto;
 	padding-bottom:15px;
 	margin-top:40px;
-	margin-left:5%;
-	margin-right:5%;
+	margin:0 auto;
 }
-
 .share-button{
-	list-style:none;
-	float:left;
-	height:auto;
+	width:45%;
+	height:40px;
+	margin-right:10px;
 }
 #loadMore{
 	background:#ffffff;
