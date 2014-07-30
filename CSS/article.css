@@ -128,7 +128,7 @@ img {
 	height:auto;
 	margin-left:1%;
 	margin-right:1%;
-	margin-top:0px;
+	margin-top:10px;
 	margin-bottom:10px;
 	border-radius: 5px;		/* CSS3草案 */
 	-webkit-border-radius: 5px;	/* Safari,Google Chrome用 */
@@ -144,7 +144,7 @@ img {
 	height:70px;
 	margin-left:5%;
 	margin-right:5%;
-	margin-bottom:0px;
+	margin-bottom:10px;
 }
 .editors-profile-pic{
 	width:70px;
@@ -155,17 +155,21 @@ img {
 .editors-profile-info{
 	float:left;
 	text-align:left;
-	margin-top:10px;
 	width:70%;	
+	margin-top:10px;
 }
 .sns-share{
-	background:#ffffff;
 	width:90%;
-	height:auto;
-	margin-top:20px;
+	height:70px;
+	margin-top:5px;
 	padding-bottom:20px;
 	margin-left:5%;
 	margin-right:5%;
+}
+.share-button{
+	list-style:none;
+	float:left;
+	height:auto;
 }
 #loadMore{
 	background:#ffffff;
