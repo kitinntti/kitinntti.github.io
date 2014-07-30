@@ -17,9 +17,10 @@ type="text/css" rel="stylesheet" />
 <title>MIRAIKARA | 未来探索系ワクワクメディア！</title>
 <link rel="stylesheet" type="text/css" href="CSS/miraikara.css">
 <link rel="stylesheet" type="text/css" href="CSS/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="CSS/jquery.sidr.light.css">
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-
+<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
 <script type="text/javascript">
 $(function(){
 	$('#slider').bxSlider({
@@ -31,19 +32,27 @@ $(function(){
 	$('#ex9 .pager-link').wrapInner('<span></span>');
 });
 </script>
+<script>
+$(document).ready(function() {
+    $('#right-menu').sidr({
+      name: 'sidr-right',
+      side: 'right'
+    });
+});
+</script>
 
 </head>
 <body>
 <div id="main">
 	<div id="header">	
 		<div class="header-menu">
-			<img src="images/menuBar.png">
+			<img src="images/mushi.png">
 		</div>
 		<div class="header-title">
 			<a  style="display:inline-block;"href="index.html"><img src="images/miraikaraMini.png" style="float:left; display:block; width:140px; height:21px; margin:auto; margin-top:10px;"></a>
 		</div>
 		<div class="header-mushi">
-			<img src="images/mushi.png">
+			<a id="right-menu" href="#right-menu"><img src="images/menuBar.png"></a>
 		</div>
 	</div>
 	<div id="slider">
