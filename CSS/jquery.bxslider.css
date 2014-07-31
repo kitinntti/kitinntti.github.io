@@ -83,6 +83,9 @@
 	display: inline-block;
 	*zoom: 1;
 	*display: inline;
+	position:relative;
+	bottom:270px;
+	left:40%;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
