@@ -110,13 +110,9 @@ img {
 .pickup-article{
 	width:100%;
 	height:auto;
-	
 }
 .pickup-article img{
-	
-}
-.pickup-article img{
-	
+	height:auto;	
 }
 #contents-area2{
 	width:100%;
