@@ -58,7 +58,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	background: url(../images/bx_loader.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -70,12 +70,13 @@
 /* PAGER */
 
 .bx-wrapper .bx-pager {
-	text-align: center;
+	text-align: left;
 	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
+	bottom:85%;
 }
 
 .bx-wrapper .bx-pager .bx-pager-item,
@@ -84,8 +85,8 @@
 	*zoom: 1;
 	*display: inline;
 	position:relative;
-	bottom:270px;
-	left:40%;
+	
+	left:0;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
