@@ -171,6 +171,9 @@ img {
 	margin-left:5%;
 	margin-right:5%;
 }
+.fb-like-box,.fb-like-box span,.fb-like-box iframe{
+ width:100% !important;
+}
 .editors-profile{
 	background:#f5f5f5;
 	width:90%;

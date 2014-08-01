@@ -25,8 +25,17 @@ $(document).ready(function() {
     });
 });
 </script>
+
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="main">
 	<div id="header">	
 		<div class="header-menu">
@@ -113,8 +122,7 @@ $(document).ready(function() {
 						</td>
 					</tr>
 				</table>
-				<div>
-				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FBoypedia%2F306773812739028&amp;width=auto&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:autopx; height:258px;" allowTransparency="true"></iframe>
+				<div class="fb-like-box" data-href="https://www.facebook.com/pages/Boypedia/306773812739028" data-width="400" data-height="250" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true">
 				</div>
 			</div>
 		</div>
