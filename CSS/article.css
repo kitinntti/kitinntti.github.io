@@ -16,6 +16,14 @@ p{
 	font-size:11px;
 	color:#2B2B2B;
 }
+.release-date{
+	text-align:right;
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:11px;
+	color:#2B2B2B;
+	margin-right:5%;
+	padding-bottom:10px;
+}
 .article-texts{
 	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
@@ -36,7 +44,7 @@ h1{
 	text-align:left;
 	color:#2B2B2B;
 	padding-top:20px;
-	padding-bottom:10px;
+	padding-bottom:5px;
 	margin-left:5%;
 	margin-right:5%;
 }
