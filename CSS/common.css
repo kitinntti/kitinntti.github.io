@@ -116,6 +116,9 @@ img {
 	left: 81%;
 	-webkit-appearance: none;
 }
+.search-box input[type="text"]{
+	-webkit-appearance: none;
+}
 *:first-child + html #searchBtn2	{
 	top: 1px;
 }
