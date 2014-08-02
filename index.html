@@ -18,9 +18,9 @@ type="text/css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="CSS/common.css">
 <link rel="stylesheet" type="text/css" href="CSS/miraikara.css">
 <link rel="stylesheet" type="text/css" href="CSS/jquery.bxslider.css">
-<link rel="stylesheet" type="text/css" href="CSS/jquery.sidr.light.css">
 <link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
 <script type="text/javascript">
@@ -42,12 +42,24 @@ $(document).ready(function() {
     });
 });
 </script>
+<script type="text/javascript">
+$(function(){
+    // 「class="search-box"」を非表示
+    $(".search-box").css("display", "none");
+ 
+    // 「class="header-search"」がクリックされた場合
+    $(".header-search").click(function(){
+        // 「class="search-box"」の表示、非表示を切り替える
+        $(".search-box").toggle();
+    });
+});
+</script>
 
 </head>
 <body>
 <div id="main">
 	<div id="header">	
-		<div class="header-menu">
+		<div class="header-search">
 			<img src="images/tags/mushi.png">
 		</div>
 		<div class="header-title">
@@ -76,7 +88,16 @@ $(document).ready(function() {
 				</ul>
 			</div>
 		</div>
+		<div class="search-box">
+			<dl>
+			<dd><form name="search-box-form" class="search-box-form" method="get" action="#">
+			<input name="search-box-input" class="search-box-input" value="" type="text" />
+			<input type="image" src="image/btn2.gif" alt="検索" name="search-box-btn" class="search-box-btn" />
+			</form></dd>
+			</dl> 	
+		</div>
 	</div>
+
 	<div id="slider">
 		<div class="pickup-article">
 			<a href="articles/20140705/20140705-jimmy.html"><img src="images/top-images/creator1.png"></a>

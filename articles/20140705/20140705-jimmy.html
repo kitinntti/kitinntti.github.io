@@ -15,7 +15,6 @@ type="text/css" rel="stylesheet" />
 <title>ビールまで注ぐ！社交性が高すぎるロボット「ジミー」ちゃん</title>
 <link rel="stylesheet" type="text/css" href="../../CSS/common.css">
 <link rel="stylesheet" type="text/css" href="../../CSS/article.css">
-<link rel="stylesheet" type="text/css" href="../../CSS/jquery.sidr.light.css">
 <link rel="stylesheet" type="text/css" href="../../font/css/font-awesome.min.css">
 <script type="text/javascript" src="../../js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="../../js/jquery.sidr.min.js"></script>
@@ -24,6 +23,18 @@ $(document).ready(function() {
     $('.right-menu').sidr({
       name: 'sidr-right',
       side: 'right'
+    });
+});
+</script>
+<script type="text/javascript">
+$(function(){
+    // 「class="search-box"」を非表示
+    $(".search-box").css("display", "none");
+ 
+    // 「class="header-search"」がクリックされた場合
+    $(".header-search").click(function(){
+        // 「class="search-box"」の表示、非表示を切り替える
+        $(".search-box").toggle();
     });
 });
 </script>
@@ -40,7 +51,7 @@ $(document).ready(function() {
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="main">
 	<div id="header">	
-		<div class="header-menu">
+		<div class="header-search">
 			<img src="../../images/tags/mushi.png">
 		</div>
 		<div class="header-title">
