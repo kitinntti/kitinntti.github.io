@@ -10,6 +10,9 @@ html,body{
 	background:#f5f5f5;
 	background: url(null) fixed;
 }
+input{
+	-webkit-appearance: none;
+}
 a{
 	text-decoration:none;
 }
@@ -114,9 +117,6 @@ img {
 	top: 0px;
 	_top: 1px;
 	left: 81%;
-	-webkit-appearance: none;
-}
-.search-box input[type="text"]{
 	-webkit-appearance: none;
 }
 *:first-child + html #searchBtn2	{
