@@ -10,8 +10,9 @@ html,body{
 	background:#f5f5f5;
 	background: url(null) fixed;
 }
-input{
-	-webkit-appearance: none;
+input[type="button"],,input[type="text"]input[type="submit"] {
+   -webkit-appearance: none;
+   border-radius: 0;
 }
 a{
 	text-decoration:none;
