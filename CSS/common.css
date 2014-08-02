@@ -105,7 +105,7 @@ img {
 	margin-left:8%;
 }
 .search-box-input{
-	width: 80%;
+	width: 82%;
 	height: 20px;
 	background:#999;
 	border: none;
@@ -117,7 +117,7 @@ img {
 	position: absolute;
 	top: 0px;
 	_top: 1px;
-	left: 81%;
+	left: 83%;
 	-webkit-appearance: none;
 }
 *:first-child + html #searchBtn2	{
