@@ -68,6 +68,7 @@ img {
 	brder-style:none;
 	max-width: 100%;
 }
+
 /* clearfix */
 #header:before,
 #header:after {
@@ -101,7 +102,7 @@ img {
 
 /* For IE 6/7 (trigger hasLayout) */
 .header-search{
-	width:20%;
+	width:200px;
 	height:50px;
 	float:left;
 	clear:both;
@@ -150,7 +151,6 @@ img {
 	padding-top:7px;
 }
 .header-mushi{
-	width:20%;
 	height:50px;
 	float:right;
 	text-align:center;
