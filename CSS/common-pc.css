@@ -68,12 +68,13 @@ img {
 	max-width: 100%;
 }
 .article1, .article2, .bx-wrapper, #title-categories, .big-article,
+.article-thumbnail img, .article-space,
 .right-con3,.right-con4,.right-con6 {
 	-webkit-box-shadow: 0 4px 4px -2px #777;
        -moz-box-shadow: 0 4px 4px -2px #777;
             box-shadow: 0 4px 4px -2px #777;
 }
- .tags-btn{
+.tags-btn{
  	-webkit-box-shadow: 0 1px 2px -1px #777;
        -moz-box-shadow: 0 1px 2px -1px #777;
             box-shadow: 0 1px 2px -1px #777;
@@ -93,8 +94,9 @@ img {
 #header{
 	z-index:9999;
 	background:#ffffff;
-	
-	height:70px;	
+	width:960px;
+	height:70px;
+	margin-left:-1px;	
 	zoom: 1;
 	border:1px solid #dfdfdf;
     border-bottom:2px solid #2b2b2b;
@@ -169,7 +171,9 @@ img {
 #title-categories{
 	text-align:center;
 	background:#ffffff;
+	width:960px;
 	height:30px;
+	margin-left:-1px;	
 	border:1px solid #dfdfdf;
 	border-bottom:1px solid #f2f2f2;
 }
