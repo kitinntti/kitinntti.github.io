@@ -77,7 +77,7 @@ img {
 	max-width: 100%;
 }
 .article1, .article2, .bx-wrapper, #title-categories, .big-article,
-.article-thumbnail img, .article-space,
+.article-thumbnail img, .article-space,.right-con1 img,
 .right-con3,.right-con4,.right-con6 {
 	-webkit-box-shadow: 0 4px 4px -2px #777;
        -moz-box-shadow: 0 4px 4px -2px #777;
