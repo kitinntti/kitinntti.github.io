@@ -7,8 +7,15 @@
 html,body{
 	height: 100%;
 	width:100%;
-	background:#f0f0f0;
-	
+	background:#f0f0f0;	
+}
+html,body ::selection{
+		background-color: #f0f0f0;
+		color: #000000;
+}
+html,body ::-moz-selection {
+		background-color: #f0f0f0;
+		color: #000000;
 }
 #main{
 	width:980px;
@@ -30,6 +37,7 @@ p{
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:11px;
 	color:#2B2B2B;
+	line-height:160%;
 }
 
 .tag{
@@ -49,6 +57,7 @@ h2{
 	font-size:12px;
 	font-weight:lighter;
 	color:#2B2B2B;
+	line-height:160%;
 }
 h3{
 	font-family:arial,helvetica,clean,sans-serif;
@@ -185,6 +194,14 @@ img {
 	top:7px;
 	padding-right:10px;
 }
+#title-categories a::selection {
+		background-color: #e0e0e0;
+		color: #000000;
+	}
+#title-categories a::-moz-selection {
+		background-color: #e0e0e0;
+		color: #000000;
+	}
 #sidr-right li img{
 	position:relative; 
 	top:9px;
