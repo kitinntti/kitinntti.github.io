@@ -31,7 +31,7 @@
 	float:left;
 	background:#ffffff;
 	list-style:none;
-	width:310px;
+	width:310px;	
 	height:205px;
 	margin-right:8px;
 	margin-top:8px;
@@ -54,9 +54,9 @@
 	list-style:none;
 	width:640px;
 	height:205px;
-	margin-top:20px;
-	margin-bottom:20px;
-	background:#ffffff;
+	margin-top:8px;
+	margin-bottom:8px;
+	background:#000000;
 }
 .story{
 	display:block;
