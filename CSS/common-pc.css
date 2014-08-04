@@ -219,21 +219,19 @@ img {
 	float:left;
 	width:640px;
 	height:auto;
-	margin-top:38px;
 }
 #contents-area3{
 	list-style:none;
 	position:relative;
 	float:right;
 	width:320px;
-	height:1000px;
-	top:-249px;
+	height:auto;
 }
 .right-con1{
 	width:300px;
-	margin-top:12px;
+	margin-top:15px;
 	margin-left:18px;
-	height:490px;
+	height:474px;
 	border:1px solid #dfdfdf;
 }
 /**

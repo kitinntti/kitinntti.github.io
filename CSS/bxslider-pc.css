@@ -16,9 +16,9 @@
 ===================================*/
 
 .bx-wrapper {
-	position: relative;
 	width:640px;
-	top:15px;
+	margin-top:15px;
+	margin-bottom:7px;
 	padding: 0;
 	*zoom: 1;
 }
@@ -50,7 +50,7 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -30px;
+	bottom: 30px;
 	width: 640px;
 }
 
@@ -76,7 +76,7 @@
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
-	bottom:0%;
+	bottom:41%;
 }
 
 .bx-wrapper .bx-pager .bx-pager-item,
