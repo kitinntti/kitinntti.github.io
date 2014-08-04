@@ -50,6 +50,7 @@
 	width:100%;
 	border:1px solid #dfdfdf;
 	margin-top:10px;
+	margin-bottom:20px;
 }
 .article-thumbnail{
 	width:640px;
@@ -117,7 +118,7 @@
 }
 .sns-share{
 	width:90%;
-	padding-bottom:15px;
+	padding-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;
 }
