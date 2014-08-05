@@ -36,8 +36,7 @@
 	letter-spacing: 0.04em;
 	text-align:left;
 	color:#2b2b2b;
-	padding-top:20px;
-	padding-bottom:5px;
+	padding:20px 0 5px 20px;
 }
 #contents-area-article{
 	float:left;
@@ -53,6 +52,7 @@
 	width:auto;
 	height:17px;
 	margin:-5px 0 15px 5%;
+	padding-left:20px;
 }
 .article-space{
 	width:100%;
@@ -94,13 +94,6 @@
 .article-images img{
 	width:100%;
 }
-.article-source{
-	text-align:left;
-	font-family:arial,helvetica,clean,sans-serif;
-	font-size:13px;
-	color:#2B2B2B;
-	padding-top:20px;
-}
 .fb-like-box,.fb-like-box span,.fb-like-box iframe{
  width:100% !important;
 }
@@ -125,7 +118,8 @@
 	margin-top:10px;
 }
 .sns-share{
-	width:90%;
+	width:80%;
+	padding-top:20px;
 	padding-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;

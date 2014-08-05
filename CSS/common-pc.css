@@ -58,11 +58,21 @@ h2{
 	font-weight:lighter;
 	color:#2B2B2B;
 	line-height:160%;
+	letter-spacing: 0.02em;
 }
 h3{
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:16px;
 	color:#2B2B2B;
+}
+h4{
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:12px;
+	font-weight:lighter;
+	color:#2B2B2B;
+	line-height:160%;
+	letter-spacing: 0.02em;
+	margin:5px 0 5px 0;
 }
 .release-date{
 	text-align:right;
@@ -76,7 +86,7 @@ img {
 	brder-style:none;
 	max-width: 100%;
 }
-.article1, .article2, .bx-wrapper, #title-categories, .big-article,
+.article1, .article2, .bx-wrapper, #title-categories, .big-article,.big-article2,
 .article-thumbnail img, .article-space,.right-con1 img,
 .right-con3,.right-con4,.right-con6 {
 	-webkit-box-shadow: 0 4px 4px -2px #777;
