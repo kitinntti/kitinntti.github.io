@@ -485,6 +485,31 @@ img {
 	margin:0 10px 0 10px;
 	
 }
+.ft-btn {
+    padding:0 0 0 0;
+}
+.ft-btn a{
+    background-color: #707070;
+    border-radius: 5px;
+    color: #b2b2b2;
+    display: block;
+    font-family:arial,helvetica,clean,sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    width:75%;
+    height: 25px;
+    margin: 0 auto;
+    padding: 12px 0 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+ 
+.ft-btn a:hover {
+	background:#7f7f7f;
+    color:#ffffff;
+    text-decoration: none;
+}
 .sidr{
 	display:none;
 	position:absolute;
