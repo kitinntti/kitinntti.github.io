@@ -56,11 +56,16 @@
 	height:75px;
 	text-align:center;
 }
-.trend-keywords-top img{
-	margin-top:15px;
-}
 .trend-keywords-bottom{
 	height:353px;
+}
+.trend-keywords-arts{
+	float:left;
+	width:278px;
+	padding:30px 20px 20px 20px;
+}
+.trend-keywords-top img{
+	margin-top:15px;
 }
 .trend-keywords-arts{
 	float:left;
@@ -75,6 +80,30 @@
 	line-height:160%;
 	letter-spacing: 0.02em;
 	margin:10px 10px 10px 20px;
+}
+.big-a-int{
+	width:100%;
+	height:100%;
+	background:#bfbfbf;
+}
+.big-a-int-top{
+	width:100%;
+	height:122px;
+	text-align:center;
+}
+.big-a-int-bottom{
+	height:305px;
+}
+.int-images{
+	width:100%;
+	text-align:center;
+}
+,int-images img{
+	margin-bottom:-2px;
+}
+.int-images li{
+	float:left;
+	list-style:none;
 }
 .space{
 	width:100%;
