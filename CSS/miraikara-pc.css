@@ -98,7 +98,8 @@
 	width:100%;
 	text-align:center;
 }
-,int-images img{
+.big-a-int-top img{
+	margin-top:20px;
 	margin-bottom:-2px;
 }
 .int-images li{
