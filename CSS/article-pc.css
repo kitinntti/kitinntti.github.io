@@ -95,7 +95,8 @@
 	width:100%;
 }
 .fb-like-box,.fb-like-box span,.fb-like-box iframe{
- width:100% !important;
+ width:80% !important;
+ margin:0 auto;
  padding:20px;
 }
 .editors-profile{
