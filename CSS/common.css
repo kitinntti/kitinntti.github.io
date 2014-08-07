@@ -142,6 +142,9 @@ img {
 	top:9px;
 	margin-right:10px;
 }
+.menu-link{
+	margin-left:-15px;
+}
 .tags{
 	width:auto;
 	height:17px;
