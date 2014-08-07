@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-.article-texts{
+.article-contents p{
 	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:14px;
@@ -36,7 +36,7 @@
 	letter-spacing: 0.04em;
 	text-align:left;
 	color:#2b2b2b;
-	padding:20px 0 5px 20px;
+	padding:20px 0 5px 15px;
 }
 #contents-area-article{
 	float:left;
