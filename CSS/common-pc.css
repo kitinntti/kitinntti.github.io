@@ -500,6 +500,7 @@ img {
 	width:700px;
 }
 .categories-dd a{
+	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-weight:lighter;
 	font-size:12px;
