@@ -65,13 +65,13 @@ img {
 	text-align:center;
 }
 .cteg-intro-contents{
-	padding:60px 50px 50px 50px;
+	padding:30px 20px 10px 20px;
 }
 .cteg-intro-contents img{
 	margin-top:50px;
-	margin-bottom:30px;
 }
 #cteg-intro p{
+	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:13px;
 	letter-spacing: 0.02em;
