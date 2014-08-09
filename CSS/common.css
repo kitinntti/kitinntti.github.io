@@ -61,11 +61,15 @@ img {
 #cteg-intro{
 	width:100%;
 	height:auto;
-	background:#dfdfdf;
+	background:#e0e0e0;
 	text-align:center;
 }
 .cteg-intro-contents{
 	padding:60px 50px 50px 50px;
+}
+.cteg-intro-contents img{
+	margin-top:50px;
+	margin-bottom:30px;
 }
 #cteg-intro p{
 	font-family:arial,helvetica,clean,sans-serif;
