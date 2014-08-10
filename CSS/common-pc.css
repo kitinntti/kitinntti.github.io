@@ -233,18 +233,22 @@ img {
 	position:relative;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:12px;
+	color:#707070;
+	top:7px;
+	margin-right:4px;
+	padding:3px;
+}
+#title-categories a:hover{
+	position:relative;
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:12px;
 	color:#2B2B2B;
 	top:7px;
-	padding-right:10px;
+	margin-right:4px;
+	background:#e0e0e0;
+	padding:3px;
 }
-#title-categories a::selection {
-		background-color: #e0e0e0;
-		color: #000000;
-	}
-#title-categories a::-moz-selection {
-		background-color: #e0e0e0;
-		color: #000000;
-	}
+
 #sidr-right li img{
 	position:relative; 
 	top:9px;
