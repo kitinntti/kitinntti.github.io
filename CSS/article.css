@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-.article-texts{
+.article-contents p{
 	text-align:left;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:14px;
@@ -10,7 +10,6 @@
 	padding-bottom:20px;
 	margin-left:5%;
 	margin-right:5%;
-	
 }
 .photo-ref{
 	text-align:left;
