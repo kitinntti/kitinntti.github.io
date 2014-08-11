@@ -1,5 +1,4 @@
 @CHARSET "UTF-8";
-
 #slider{
 	width:auto;
 }
@@ -16,7 +15,6 @@
 #ex9 .pager-active{
  	 background: url(images/slide_pointer.png) left top;
 }
-
 .pickup-article{
 	width:100%;
 	height:auto;
@@ -83,7 +81,6 @@
 .title{
 	width:auto;
 	height:50px;
-	margin-top:7px;
 }
 .space{
 	width:100%;

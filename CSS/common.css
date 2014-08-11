@@ -3,7 +3,13 @@
 	margin:0;
 	padding:0;
 }
-	
+.article-release-date{
+	text-align:left;
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:11px;
+	color:#2B2B2B;
+	padding:10px 0 5px 0;
+}
 html,body{
 	height: 100%;
 	width: 100%;
@@ -38,8 +44,9 @@ h1{
 h2{
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:12px;
-	font-weight:lighter;
 	color:#2B2B2B;
+	line-height:160%;
+	letter-spacing: 0.02em;
 }
 h3{
 	font-family:arial,helvetica,clean,sans-serif;
