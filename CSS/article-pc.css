@@ -118,17 +118,13 @@
 	margin-top:10px;
 }
 .sns-share{
-	width:80%;
-	padding-top:20px;
-	padding-bottom:30px;
-	margin-left:auto;
-	margin-right:auto;
+	width:480px;
+	padding:20px 30px 30px 40px;
 }
-.share-button{
-	width:45%;
-	height:40px;
-	margin-left:auto;
-	margin-right:auto;
+.sns-share-bottom{
+	width:460px;
+	padding:20px 40px 30px 65px;
+	height:100px;
 }
 #loadMore{
 	background:#ffffff;
@@ -138,7 +134,10 @@
 }
 
 .twi-btn {
-    padding: 10px 0 0;
+	width:190px;
+	float:left;
+   	padding-right:15px;
+   	padding-bottom:15px;
 }
  
 .twi-btn a{
@@ -150,7 +149,6 @@
     font-family:arial,helvetica,clean,sans-serif;
     font-size: 90%;
     font-weight: bold;
-    width:90%;
     height: 30px;
     margin: 0 auto;
     padding: 12px 0 0;
@@ -167,7 +165,10 @@
     text-decoration: none;
 }
 .fb-btn {
-    padding: 10px 0 0;
+	width:190px;
+	float:left;
+   	padding-left:15px;
+   	padding-bottom:15px;
 }
  
 .fb-btn a{
@@ -179,7 +180,6 @@
     font-family:arial,helvetica,clean,sans-serif;
     font-size: 90%;
     font-weight: bold;
-    width:90%;
     height: 30px;
     margin: 0 auto;
     padding: 12px 0 0;
@@ -189,6 +189,66 @@
     vertical-align: middle;
 }
 .fb-btn a:hover {
+    box-shadow: 0 1px 0 #1D315C;
+    margin-bottom: -2px;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+.twi-btn-bottom {
+	width:80%;
+	float:left;
+   	margin:0 auto;
+}
+ 
+.twi-btn-bottom a{
+    background-color: #00aced;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #02658B;
+    color: #FFFFFF;
+    display: block;
+    font-family:arial,helvetica,clean,sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 auto;
+    padding: 12px 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+}
+ 
+.twi-btn-bottom a:hover {
+    box-shadow: 0 1px 0 #02658B;
+    margin-bottom: -2px;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.fb-btn-bottom {
+	width:80%;
+	float:left;
+   	margin:10px auto;
+}
+ 
+.fb-btn-bottom a{
+    background-color: #305097;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #1D315C;
+    color: #FFFFFF;
+    display: block;
+    font-family:arial,helvetica,clean,sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 auto;
+    padding: 12px 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+}
+.fb-btn-bottom a:hover {
     box-shadow: 0 1px 0 #1D315C;
     margin-bottom: -2px;
     margin-top: 2px;
