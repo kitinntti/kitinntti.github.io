@@ -133,8 +133,9 @@
 	margin-top:10px;
 }
 .sns-share{
-	width:90%;
-	padding-bottom:15px;
+	width:100%;
+	text-align:center;
+	padding-bottom:20px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -142,12 +143,6 @@
 	width:auto;
 	margin-bottom:30px;
 	margin-top:20px;
-	margin-left:auto;
-	margin-right:auto;
-}
-.share-button{
-	width:45%;
-	height:40px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -159,7 +154,11 @@
 }
 
 .twi-btn {
-    padding: 10px 0 0;
+	width:43%;
+	float:left;
+   	padding-left:5%;
+   	padding-right:2%;
+   	padding-bottom:15px;
 }
  
 .twi-btn a{
@@ -187,7 +186,11 @@
     text-decoration: none;
 }
 .fb-btn {
-    padding: 10px 0 0;
+	width:43%;
+	float:left;
+   	padding-left:2%;
+   	padding-right:5%;
+   	padding-bottom:15px;
 }
  
 .fb-btn a{
