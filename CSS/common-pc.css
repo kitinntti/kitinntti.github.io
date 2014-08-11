@@ -55,7 +55,6 @@ h1{
 h2{
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:12px;
-	font-weight:lighter;
 	color:#2B2B2B;
 	line-height:160%;
 	letter-spacing: 0.02em;
@@ -81,6 +80,14 @@ h4{
 	color:#2B2B2B;
 	margin-right:5%;
 	padding-bottom:10px;
+}
+.article-release-date{
+	text-align:left;
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:11px;
+	color:#2B2B2B;
+	margin-left:5%;
+	padding:15px 0 5px 0;
 }
 img {
 	brder-style:none;
@@ -331,7 +338,6 @@ img {
 .title{
 	width:auto;
 	height:50px;
-	margin-top:7px;
 	margin-left:15px;
 	margin-right:15px;
 }
