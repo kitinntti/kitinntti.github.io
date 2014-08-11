@@ -407,6 +407,7 @@ img {
 	height:88%;
 	margin-top:6%;
 	margin-bottom:6%;
+	vertical-align:middle;
 }
 .mini-articles-left{
 	float:left;
@@ -417,13 +418,19 @@ img {
 	margin-right:10px;
 }
 .mini-articles-right{
-	float:left;
-	width:175px;
-	height:auto;
-	max-height:50px;
+	display: table-cell;
+	text-align:left;
+	width:235px;
+	height:50px;
 	font-family:arial,helvetica,clean,sans-serif;
 	font-size:11px;
 	color:#2B2B2B;
+	vertical-align:middle;
+	padding:0 15px 0 0;
+}
+.mini-article-right p{
+	display:incline-block;
+	text-align:left;
 }
 
 #footer{
