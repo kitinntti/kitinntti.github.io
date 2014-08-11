@@ -134,9 +134,9 @@
 }
 
 .twi-btn {
-	width:190px;
+	width:200px;
 	float:left;
-   	padding-right:15px;
+   	padding-right:6px;
    	padding-bottom:15px;
 }
  
@@ -165,9 +165,9 @@
     text-decoration: none;
 }
 .fb-btn {
-	width:190px;
+	width:200px;
 	float:left;
-   	padding-left:15px;
+   	padding-left:6px;
    	padding-bottom:15px;
 }
  
